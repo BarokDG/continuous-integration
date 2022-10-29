@@ -151,7 +151,7 @@ To upload artifacts to the artifact storage, we can use an action built by GitHu
 ### :keyboard: Activity: Upload test reports
 
 1. Edit your workflow file.
-1. Add a step to your `build` job that uses the `upload-artifacts` action.
+1. Add a step to your _build_ job that uses the _upload-artifacts_ action.
    ```yaml
      build:
        runs-on: ubuntu-latest
